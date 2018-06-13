@@ -1,14 +1,19 @@
-# Chapter 1 solutions
-## Solution Location
+# Chapter 1 
+# Intermission: Equivalence Exercises
+1. *λxy.xz* = b = *λmn.mz*
+2. *λxy.xxy* = c = *λa.(λb.aab)*
+3. *λxyz.zx* = b = *λtos.st*
+## Solutions
+### Solution Location
 All solutions are included in this files
-## Combinators
+### Combinators
 This sections seeks to identify if a term is a combinator or not
 1. *λx.xxx* → true
 2. *λxy.zx* → false
 3. *λxyz.xy(zx)* → true
 4. *λxyz.xy(zxy)* → true
 4. *λxy.xy(zxy)* → false
-## Normal form or diverge?
+### Normal form or diverge?
 Determine if the terms diverge or can be reduced
 1. can be reduced
 ```
@@ -27,7 +32,7 @@ yyy
 (λx.xxx)z
 zzz
 ```
-## Beta reduce
+### Beta reduce
 beta reduce the expressions
 1. 
 ```
