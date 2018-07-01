@@ -1,0 +1,1 @@
+daysOfTheWeekCalc initial delta = mod (initial + delta) 7
